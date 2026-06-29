@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nagarjuna Mullapudi - Builder Profile</title>
+<meta name="description" content="A factually-referenced map of ~1.5 years of building: production agentic systems, multi-model orchestration, content intelligence, and AI-leverage foresight.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FBFBFA; --surface:#FFFFFF; --surface-2:#F4F3F1; --ink:#18181B; --muted:#57565C; --faint:#8A8980;
+  --hair:rgba(20,20,20,.09); --hair-2:rgba(20,20,20,.15); --accent:#0F7A57; --accent-ink:#0F7A57; --accent-tint:#E7F2EC;
+  --sans:'Geist',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; --mono:'Geist Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --radius:10px; --maxw:1060px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0D0D0F; --surface:#161619; --surface-2:#1E1E22; --ink:#F3F3F0; --muted:#A2A199; --faint:#6F6E67;
+  --hair:rgba(255,255,255,.10); --hair-2:rgba(255,255,255,.18); --accent:#3FB488; --accent-ink:#52C99B; --accent-tint:#10342A;
+}}
+:root[data-theme="dark"]{
+  --bg:#0D0D0F; --surface:#161619; --surface-2:#1E1E22; --ink:#F3F3F0; --muted:#A2A199; --faint:#6F6E67;
+  --hair:rgba(255,255,255,.10); --hair-2:rgba(255,255,255,.18); --accent:#3FB488; --accent-ink:#52C99B; --accent-tint:#10342A;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-weight:500;letter-spacing:-.02em;line-height:1.08}
+.mono{font-family:var(--mono)}
+.muted{color:var(--muted)} .faint{color:var(--faint)}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--accent-ink);text-transform:uppercase}
+
+nav{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--hair)}
+.nav-in{max-width:var(--maxw);margin:0 auto;padding:0 28px;height:64px;display:flex;align-items:center;gap:20px}
+.brand{font-weight:600;font-size:15px;letter-spacing:-.01em}
+.brand b{color:var(--accent-ink);font-weight:600}
+.nav-links{display:flex;gap:2px;margin-left:auto}
+.nav-links a{font-size:14px;color:var(--muted);padding:7px 12px;border-radius:8px;transition:color .15s,background .15s}
+.nav-links a:hover{color:var(--ink)} .nav-links a.active{color:var(--accent-ink)}
+.tg{margin-left:auto;border:1px solid var(--hair-2);background:transparent;color:var(--ink);font-family:var(--mono);font-size:12px;height:34px;padding:0 12px;border-radius:8px;cursor:pointer}
+.nav-links + .tg{margin-left:8px}
+.tg:hover{background:var(--surface-2)}
+
+header.hero{padding:92px 0 56px;position:relative}
+.hero .eyebrow{margin-bottom:20px;display:block}
+.hero h1{font-size:clamp(33px,5.2vw,56px);max-width:16ch;font-weight:500}
+.hero h1 .em{color:var(--accent-ink)}
+.hero .sub{font-size:clamp(16px,2vw,19px);color:var(--muted);max-width:60ch;margin-top:22px}
+.cta-row{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}
+.btn{font-family:var(--sans);font-size:14px;font-weight:500;padding:11px 18px;border-radius:var(--radius);cursor:pointer;transition:transform .12s,background .15s;border:1px solid transparent}
+.btn:active{transform:translateY(1px)}
+.btn-pri{background:var(--accent);color:#fff}
+.btn-pri:hover{filter:brightness(1.06)}
+.btn-sec{background:transparent;border-color:var(--hair-2);color:var(--ink)}
+.btn-sec:hover{background:var(--surface-2)}
+
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.kpi{padding:22px 0;border-left:1px solid var(--hair)}
+.kpi:first-child{border-left:0;padding-left:0}
+.kpi:not(:first-child){padding-left:22px}
+.kpi .v{font-size:30px;font-weight:500;letter-spacing:-.02em}
+.kpi .v small{font-size:17px;color:var(--faint)}
+.kpi .l{font-size:12.5px;color:var(--muted);margin-top:7px;max-width:22ch;line-height:1.4}
+
+section{padding:64px 0;border-top:1px solid var(--hair)}
+.sec-h{font-size:clamp(22px,3vw,29px);max-width:24ch}
+.sec-lead{color:var(--muted);margin-top:12px;max-width:62ch;font-size:16px}
+.rev{opacity:0;transform:translateY(14px)}
+.show .rev{opacity:1;transform:none;transition:opacity .55s ease,transform .55s ease}
+
+.feature{margin-top:30px;padding:26px;background:var(--surface);border:1px solid var(--hair);border-radius:var(--radius)}
+.feature .k{font-family:var(--mono);font-size:12px;color:var(--accent-ink);text-transform:uppercase;letter-spacing:.04em}
+.feature h3{font-size:20px;margin:12px 0 8px;max-width:30ch}
+.feature p{color:var(--muted);max-width:72ch}
+.s-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:14px;border-top:1px solid var(--hair)}
+.s-cell{padding:22px 24px 22px 0;border-bottom:1px solid var(--hair)}
+.s-cell:nth-child(odd){padding-right:24px;border-right:1px solid var(--hair)}
+.s-cell:nth-child(even){padding-left:24px}
+.s-cell h3{font-size:16px} .s-cell p{color:var(--muted);font-size:14.5px;margin-top:7px}
+.s-cell .n{font-family:var(--mono);font-size:12px;color:var(--faint)}
+
+.ex{display:grid;grid-template-columns:54px 1fr;gap:24px;padding:28px 0;border-bottom:1px solid var(--hair)}
+.ex:first-of-type{border-top:1px solid var(--hair)}
+.ex .n{font-size:30px;font-weight:500;color:var(--accent-ink);letter-spacing:-.03em}
+.ex h3{font-size:19px;max-width:42ch} .ex .role{font-family:var(--mono);font-size:12.5px;color:var(--muted);margin:6px 0 11px}
+.ex p{color:var(--muted);max-width:74ch}
+.ex .path{font-family:var(--mono);font-size:11.5px;color:var(--faint);margin-top:12px;word-break:break-all}
+
+.legend{font-family:var(--mono);font-size:12px;color:var(--muted);margin:20px 0 6px}
+.proj{border-top:1px solid var(--hair)}
+.proj summary{list-style:none;cursor:pointer;padding:17px 0 13px;display:grid;grid-template-columns:26px 1fr auto;gap:16px;align-items:baseline}
+.proj summary::-webkit-details-marker{display:none}
+.proj[open] summary{padding-bottom:6px}
+.proj .rk{font-family:var(--mono);font-size:14px;color:var(--faint)}
+.proj .nm{font-size:16px;font-weight:500}
+.proj .mt{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:4px}
+.proj .badge{font-family:var(--mono);font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.03em;align-self:center;white-space:nowrap}
+.barline{grid-column:1/-1;height:3px;border-radius:3px;width:0;margin-top:10px;background:var(--accent);transition:width .9s cubic-bezier(.2,.7,.2,1)}
+.barline.exp{background:color-mix(in srgb,var(--accent) 55%,transparent)}
+.barline.res{background:color-mix(in srgb,var(--accent) 30%,transparent)}
+.proj .body{padding:4px 0 20px 42px;max-width:80ch}
+.proj .body p{color:var(--muted);font-size:14.5px}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}
+.tags span{font-family:var(--mono);font-size:11.5px;color:var(--muted);border:1px solid var(--hair);padding:4px 9px;border-radius:7px}
+.proj[hidden]{display:none}
+.fbar{display:flex;gap:6px;margin:22px 0 4px;flex-wrap:wrap}
+.fbtn{font-family:var(--mono);font-size:12.5px;border:1px solid var(--hair-2);background:transparent;color:var(--muted);padding:6px 13px;border-radius:999px;cursor:pointer}
+.fbtn.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+
+.led{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px}
+.led-c{background:var(--surface);border:1px solid var(--hair);border-left:3px solid var(--accent);border-radius:var(--radius);padding:20px 22px}
+.led-c h3{font-size:16px;margin-bottom:8px} .led-c p{color:var(--muted);font-size:14.5px}
+.led-note{margin-top:14px;font-size:14px;color:var(--accent-ink);background:var(--accent-tint);border-radius:var(--radius);padding:13px 18px}
+
+.flow{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
+.flow-c{padding:20px 0 0;border-top:2px solid var(--accent)}
+.flow-c h3{font-size:16px;margin:10px 0 7px} .flow-c p{color:var(--muted);font-size:14px}
+.flow-c .k{font-family:var(--mono);font-size:12px;color:var(--accent-ink)}
+
+table.ev{width:100%;border-collapse:collapse;font-size:14px;margin-top:24px}
+table.ev th{text-align:left;font-family:var(--mono);font-weight:400;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--faint);padding:0 14px 12px 0}
+table.ev td{padding:13px 14px 13px 0;border-top:1px solid var(--hair);vertical-align:top}
+table.ev td.pill{white-space:nowrap;font-family:var(--mono);font-size:11px;color:var(--muted);text-transform:uppercase}
+table.ev td.path{font-family:var(--mono);font-size:11.5px;color:var(--faint);word-break:break-all}
+
+footer{padding:54px 0 80px;border-top:1px solid var(--hair);color:var(--muted)}
+footer .big{font-size:20px;color:var(--ink);max-width:40ch;font-weight:500;letter-spacing:-.01em}
+footer p{margin-top:12px;max-width:66ch;font-size:14.5px}
+footer .fine{margin-top:26px;font-family:var(--mono);font-size:11.5px;color:var(--faint)}
+
+@media (max-width:820px){
+  .nav-links{display:none} .kpis{grid-template-columns:1fr 1fr} .kpi:nth-child(3){border-left:0;padding-left:0} .kpi{padding-left:0!important;border-left:0;border-top:1px solid var(--hair)} .kpi:first-child{border-top:0}
+  .s-grid{grid-template-columns:1fr} .s-cell{padding:20px 0!important;border-right:0!important} .ex{grid-template-columns:1fr;gap:8px} .led{grid-template-columns:1fr} .flow{grid-template-columns:1fr} .proj .body{padding-left:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important} .rev{opacity:1;transform:none}}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-in">
+    <span class="brand">Nagarjuna Mullapudi <span class="muted" style="font-weight:400">/ builder</span></span>
+    <div class="nav-links">
+      <a href="#strengths">Strengths</a>
+      <a href="#exhibits">Exhibits</a>
+      <a href="#work">Work</a>
+      <a href="#ledger">Honest ledger</a>
+      <a href="#how">How it was built</a>
+      <a href="#evidence">Evidence</a>
+    </div>
+    <button class="tg" id="tg" aria-label="Toggle colour theme">theme</button>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Builder profile</span>
+    <h1>He ships agentic systems, then builds the checks that <span class="em">keep them honest.</span></h1>
+    <p class="sub">Live trading intelligence, content systems, and analytics agents. Data to decision to distribution, with verification you can audit.</p>
+    <div class="cta-row">
+      <a class="btn btn-pri" href="#work">See the work</a>
+      <a class="btn btn-sec" href="#how">How it was built</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="kpis">
+    <div class="kpi"><div class="v">68</div><div class="l">active days on the flagship, the most sustained effort</div></div>
+    <div class="kpi"><div class="v">1.3<small> GB</small></div><div class="l">recent agent-coding traces, the most intense work</div></div>
+    <div class="kpi"><div class="v">133</div><div class="l">model delegations logged across Claude, GPT-5.5, Gemini</div></div>
+    <div class="kpi"><div class="v">21<small>/26</small></div><div class="l">blind value-test wins, sign-test p = 0.0012</div></div>
+  </div>
+</div>
+
+<section id="strengths">
+  <div class="wrap">
+    <h2 class="sec-h rev">Six strengths that repeat across every project</h2>
+    <p class="sec-lead rev">Different domains, one method: data, then evidence, then a gated decision, then distribution.</p>
+    <div class="feature rev">
+      <div class="k">The rarest signal</div>
+      <h3>Verification engineering</h3>
+      <p>He gates an LLM with code it cannot talk past. Three independent instances, all real and running: an execution gate that re-checks a trading agent before any alert, a sealed holdout that refuses to be queried without a logged flag, and a validator that blocks dishonest classifications. Most people prompt and hope. He builds the referee.</p>
+    </div>
+    <div class="s-grid rev">
+      <div class="s-cell"><div class="n">02</div><h3>Multi-model orchestration</h3><p>Opus leads, GPT-5.5 critiques where it measurably wins, Gemini diversifies. A policy he derived from a blind A/B test, then shipped as installed skills with a delegation log.</p></div>
+      <div class="s-cell"><div class="n">03</div><h3>Loop engineering</h3><p>Research loops with an out-of-sample gate they cannot game. He proved it by honestly killing 7 of 9 hypotheses through his own harness.</p></div>
+      <div class="s-cell"><div class="n">04</div><h3>Data to decision systems</h3><p>The pipeline and the agent on top: 177M+ market ticks and 16M+ product events into ClickHouse, exposed as AI-callable tools.</p></div>
+      <div class="s-cell"><div class="n">05</div><h3>AI-leverage foresight</h3><p>A role-by-role map of where AI automates, collaborates, or stays human-accountable, every cell cited to a 2025-26 primary source.</p></div>
+      <div class="s-cell"><div class="n">06</div><h3>Intellectual honesty</h3><p>He runs the controls that demolish his own headlines, reports honest nulls, discloses collaborators, and labels forks. The trait that makes the rest trustworthy.</p></div>
+      <div class="s-cell"><div class="n">07</div><h3>Vertical range</h3><p>Trading, content, analytics, agents, foresight. Eleven clusters held together by the same build instinct rather than one narrow speciality.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="exhibits">
+  <div class="wrap">
+    <h2 class="sec-h rev">Three exhibits that earn the meeting</h2>
+    <div class="ex rev"><div class="n">01</div><div>
+      <h3>CheckMyStock, a production agentic trading platform with a safety gate</h3>
+      <div class="role">Live, multi-server, 177M+ ticks on disk</div>
+      <p>A live system for Indian-index intraday trading: Dhan ticks through Kafka into ClickHouse, a shared trading core, being re-architected into an agent-per-instrument design where an LLM reasons like a trading desk. An independent deterministic execution gate re-verifies every agent claim before an alert fires, so the agent cannot act on a hallucinated edge.</p>
+      <div class="path">stock-intelligence-platform/apps/execution-gate/src/execution_gate/runner.py</div>
+    </div></div>
+    <div class="ex rev"><div class="n">02</div><div>
+      <h3>Content intelligence, an LLM-fleet measurement engine with honest error bars</h3>
+      <div class="role">Shipped pipeline plus a real content-science moat</div>
+      <p>His largest recent footprint. A shipped video-production pipeline, plus rigorous content science: a permutation-tested virality study, a 39-agent mechanism decoder, a competitor revenue formula cracked and verified 6 of 6, and a blind matched-pair value test a human passed 21 of 26 (p = 0.0012).</p>
+      <div class="path">creator-intelligence/research/longform-value/funnel/runs/RUN2_RESULT.md</div>
+    </div></div>
+    <div class="ex rev"><div class="n">03</div><div>
+      <h3>Sanskrit karaka reasoning, a clean experiment that falsified its own thesis</h3>
+      <div class="role">Experiment, ~3,000 scored predictions, null result</div>
+      <p>The cheapest falsifiable test of a grand idea: does Paninian semantic-role grammar make an LLM reason better than RDF, AMR, or logic? He built the exact control arm to isolate the confound, ran McNemar-tested replications, and published the null against his own prior. The value is uniform role-structure, reproducible in plain English. Not a trained model, and he frames it correctly.</p>
+      <div class="path">readyforai-videos/experiments/sanskrit-karaka-reasoning/RESULTS_PHASE3.md</div>
+    </div></div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <span class="eyebrow rev">The work</span>
+    <h2 class="sec-h rev" style="margin-top:14px">Eleven clusters, ranked by effort</h2>
+    <p class="sec-lead rev">Ranked by a rule frozen before the analysis: own-authored active days plus sustained commit cadence. Tap a row for the detail.</p>
+    <div class="fbar rev">
+      <button class="fbtn on" data-f="all">All</button>
+      <button class="fbtn" data-f="Shipped">Shipped</button>
+      <button class="fbtn" data-f="Experiment">Experiment</button>
+      <button class="fbtn" data-f="Research">Research</button>
+    </div>
+    <p class="legend rev">Bar length is relative effort. Solid is shipped, mid-tone is experiment, faint is research.</p>
+    <div id="projects" class="rev"></div>
+  </div>
+</section>
+
+<section id="ledger">
+  <div class="wrap">
+    <h2 class="sec-h rev">Honest ledger</h2>
+    <p class="sec-lead rev">Two headline claims that on-disk evidence corrects. Naming them plainly is what protects credibility with a reader who might check.</p>
+    <div class="led rev">
+      <div class="led-c"><h3>The ~30k audience is self-stated</h3><p>Verified: the @stockvid.telugu channel is his, with a genuine viral reel near 164k views (API-confirmed). Not verified: the follower count. The latest dated snapshot on disk is 3,500, the 30k figure appears only in his own May strategy note, the 20k Instagram plus 10k YouTube split has no on-disk basis, and there is no evidence of a YouTube channel for him.</p></div>
+      <div class="led-c"><h3>The "February foresight" is not on disk</h3><p>A thorough sweep found no February 2026 prediction file. In February he was shipping trading-video pipelines. The only "four" is his June Leverage Map, which itself states it records what is proven now, not prophecy. Presenting the June framework as a February call would be hindsight.</p></div>
+    </div>
+    <p class="led-note rev">If those four insights live off-disk (an X thread, a note, a doc), share the source and they become a strong, dated foresight exhibit.</p>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2 class="sec-h rev">How this profile was built</h2>
+    <p class="sec-lead rev">Mapped with his own tooling, over roughly 50 repositories, 46 GitHub repos, and 1.6 GB of session traces.</p>
+    <div class="flow rev">
+      <div class="flow-c"><div class="k">Brainstormed</div><h3>Three-model design</h3><p>His group-brainstorm skill: Opus orchestrating, Gemini on craft, GPT-5.5 on rigor. Two argued rounds set the method before any conclusion was frozen.</p></div>
+      <div class="flow-c"><div class="k">Researched</div><h3>Seventeen-agent workflow</h3><p>A dynamic workflow near 1.1M tokens: a frozen effort table, parallel deep-dives across every cluster, and adversarial verification of the headline claims.</p></div>
+      <div class="flow-c"><div class="k">Synthesised</div><h3>Tiered and path-cited</h3><p>Every claim carries an evidence tier and a file path, so another agent or a skeptic can check it without redoing the work.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="evidence">
+  <div class="wrap">
+    <span class="eyebrow rev">Verify it</span>
+    <h2 class="sec-h rev" style="margin-top:14px">Evidence index</h2>
+    <table class="ev rev">
+      <thead><tr><th>Claim</th><th>Tier</th><th>Path</th></tr></thead>
+      <tbody id="evrows"></tbody>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="big">The fastest way to test him is to hand him a messy real-world decision problem.</p>
+    <p>Watch him stand up the data pipeline, the agent, and the gate that keeps the agent honest. He builds for the Indian vernacular market, a distribution and ground-truth advantage a frontier lab would value.</p>
+    <p class="fine">All paths relative to ~/Documents/. Tiers and counts reproducible from the cited files. Prepared June 2026.</p>
+  </div>
+</footer>
+
+<script>
+const PROJECTS=[
+ {r:1,name:"Stock-markets intelligence, CheckMyStock",mat:"Shipped",eff:100,meta:"1,237 commits, 68 active days, 5 months",blurb:"A live, multi-server intraday-trading platform for Indian indices (Dhan, Kafka, ClickHouse, 177M+ ticks), being re-architected into an agent-per-instrument system behind an independent deterministic execution gate that re-verifies every claim before an alert. About 83 percent his work; a collaborator authored roughly 207 commits, disclosed.",skills:["Agentic architecture","MCP tool-server","Safety-gate engineering","Production tick pipelines","Eval governance"]},
+ {r:2,name:"Content and creator intelligence, ReadyForAI",mat:"Shipped",eff:90,meta:"354 plus 168 commits, 52 sessions, 1.3 GB, active now",blurb:"A two-layer engine that makes distribution measurable before production: a shipped video factory plus a rigorous content-science moat (permutation-tested virality study, 39-agent mechanism decoder, cracked competitor revenue model, blind matched-pair value test at p = 0.0012), generalised niche-agnostically with honest-null discipline.",skills:["Causal hygiene","Multi-agent orchestration","Competitor reverse-engineering","Deterministic pipelines"]},
+ {r:3,name:"Intraday quant plus multi-model orchestration",mat:"Experiment",eff:72,meta:"571 commits, 18 active days, Opus plus Codex loop",blurb:"A self-hosted intraday quant-research engine (ClickHouse event-analytics plus MCP, 1,208 tests) feeding a blind-discovery methodology with hard anti-overfit gates that demoted 11 false-positive patterns. Opus synthesises, Codex and GPT adversarially refute (re-deriving SQL, catching arithmetic errors) under a human approver. An honest zero promoted to live is treated as the discipline succeeding.",skills:["Quant methodology","Anti-overfit validation","Standing orchestration","ClickHouse engineering"]},
+ {r:4,name:"Video-generation pipelines, Telugu",mat:"Shipped",eff:60,meta:"about 825 commits, real MP4s shipped",blurb:"A deterministic, server-deployed factory turning a markdown trading brief into a publishable Telugu and English short-form reel end to end: 12-phase pipeline, Remotion compositions, ElevenLabs and Sarvam TTS, optional Veo 3.1 hook, a 32-rule QA gate, and a 24-skill library with a feedback-driven evolution engine. Targets the underserved 200M+ Telugu retail-investor audience.",skills:["Remotion","Veo and ElevenLabs","Multi-phase orchestration","Vernacular content systems"]},
+ {r:5,name:"ReadyForAI, the Role Leverage Map",mat:"Research",eff:56,meta:"219 commits, shipped explorer plus deep research",blurb:"A primary-source-grounded map of where AI has leverage in real knowledge-work roles, each responsibility bucketed automate-now, collaborate, or human-core with a cited source, confidence, and last-reviewed date. A fully-worked India-specific analyst map sits behind a shipped Next.js explorer with a validator enforcing classification honesty.",skills:["AI-labor foresight","Role decomposition","Adversarial self-verification","Eval-gate design","India market reading"]},
+ {r:6,name:"Agent frameworks, Hermes and OpenClaw",mat:"Shipped",eff:46,meta:"182 commits, live bots deployed",blurb:"A multi-tenant Hermes Template Factory (registry, provisioner, eval-runner, versioning, 5 templates) plus an OpenClaw-backed 10-slot goal orchestrator running a live pipeline, and live Moltbot and Clawdbot deployments for real orgs, including a Telegram analytics bot for a foundation. Aimed at a self-service agent platform for non-technical Telugu users.",skills:["Agent-fleet architecture","Human-gated loops","Deployment ops","Vernacular pedagogy"]},
+ {r:7,name:"Vrinda, AI-native product analytics",mat:"Shipped",eff:40,meta:"84 commits net-new, deployed for a client",blurb:"On a fork of OpenPanel (an open-source Mixpanel replacement) he layered a net-new AI analytics layer: 16M+ events migrated to self-hosted ClickHouse for a real client app, two MCP analytics packages (23+ tools), and a deployed multi-agent Discord system where a manager LLM routes questions to specialist agents. This is the pro-analytics tool: raw events into decision-friendly insight.",skills:["Multi-agent design","MCP authoring","ClickHouse engineering","Self-hosted infra"]},
+ {r:8,name:"Multi-model orchestration layer",mat:"Shipped",eff:36,meta:"shipped skills, 133 delegations logged",blurb:"The installed codex-critique and group-brainstorm skills, a global routing hook, and a cost-governed model policy. Opus leads, GPT-5.5 critiques where it measurably wins, Gemini is the metered diversity seat. A 133-entry delegation log keeps testing whether the second model earns its keep. Small footprint, large reach, and the engine behind this very profile.",skills:["Mixture-of-agents","Eval-driven design","LLM-as-critic","Cross-vendor integration","Cost governance"]},
+ {r:9,name:"Loop engineering plus auto-research",mat:"Shipped",eff:33,meta:"code-sealed out-of-sample harness",blurb:"A retrodiction harness that scores content-strategy hypotheses against 10,607 same-channel hit and flop pairs through a referee that refuses to touch its sealed holdout without a logged flag, leakage-guarded by assertion, with Wilson intervals and clustered resampling. It proved its honesty by killing 7 of 9 hypotheses. Plus a near-zero-cost daily discovery loop and a loops research corpus.",skills:["Out-of-sample eval","Leakage control","Small-effect statistics","Quant-overfit transfer"]},
+ {r:10,name:"Distribution plus social MCP products",mat:"Experiment",eff:30,meta:"302 commits, 2 eval-first MCP servers",blurb:"Two licensed MCP products: a distribution engine (discover, rank by commenter-audience, enrich, deterministic outreach drafts, no auto-send, Codex-reviewed eval harness) and an X-content engine (composable growth phases with a hostile-content security boundary, Apify cheapest-first scraping). Honest result framing throughout.",skills:["Eval-first design","MCP and security","Apify orchestration","Audience qualification"]},
+ {r:11,name:"Sanskrit karaka reasoning",mat:"Experiment",eff:18,meta:"overnight study, clean null result",blurb:"A test-backed representation-swap experiment on whether Sanskrit karaka grammar is a better reasoning substrate for LLMs than RDF, AMR, or logic. A fairness-contracted renderer emitted identical facts across 9 schemas with the exact control needed to isolate the confound; about 3,000 scored predictions and McNemar tests turned an early positive headline into a clean, honest null.",skills:["Experimental design","Rendering-fairness","Statistical honesty","Computational linguistics"]}
+];
+const EV=[
+ ["Live trading platform, 177M ticks, containers up two months","SHIPPED","stock-intelligence-platform/docs/modules/platform/research/LIVE_prod_infrastructure_knowledge_20260324.md"],
+ ["Independent execution gate, real code","SHIPPED","stock-intelligence-platform/apps/execution-gate/src/execution_gate/runner.py"],
+ ["Sealed-holdout retrodiction harness","SHIPPED","readyforai-videos/research/_content-intelligence/auto-research/harness/eval.py"],
+ ["Blind value test 21 of 26, p = 0.0012","EXPERIMENT","creator-intelligence/research/longform-value/funnel/runs/RUN2_RESULT.md"],
+ ["Sanskrit null result, self-falsified","EXPERIMENT","readyforai-videos/experiments/sanskrit-karaka-reasoning/RESULTS_PHASE3.md"],
+ ["Shipped codex-critique orchestration skill","SHIPPED","~/.claude/skills/codex-critique/SKILL.md"],
+ ["133-entry delegation feedback log","EXPERIMENT","creator-intelligence/.orchestration/feedback.jsonl"],
+ ["FABLE-ban virality study, permutation tests","EXPERIMENT","readyforai-videos/research/_x-virality/FINDINGS_VIRAL_FLOP_FABLE_20260613.md"],
+ ["Vrinda multi-agent analytics, deployed","SHIPPED","vrinda-analytics-agents/docs/DEPLOYMENT_STATE.md"],
+ ["Hermes factory plus live agents","SHIPPED","hermes-factory/docs/AI_REEL_CURATOR_DUAL_CHANNEL_RECEIPT_20260510.md"],
+ ["Telugu video factory, real MP4s","SHIPPED","video-engine/pipeline.sh"],
+ ["Role Leverage Map plus shipped explorer","RESEARCH","readyforai.in/app/explore/"]
+];
+const MATC={Shipped:"",Experiment:"exp",Research:"res"};
+const host=document.getElementById('projects');
+PROJECTS.forEach(p=>{
+  const d=document.createElement('details');d.className='proj';d.dataset.mat=p.mat;
+  d.innerHTML='<summary>'+
+    '<span class="rk">'+String(p.r).padStart(2,'0')+'</span>'+
+    '<span><span class="nm">'+p.name+'</span><div class="mt">'+p.meta+'</div></span>'+
+    '<span class="badge">'+p.mat+'</span>'+
+    '<span class="barline '+MATC[p.mat]+'" data-w="'+p.eff+'"></span>'+
+    '</summary>'+
+    '<div class="body"><p>'+p.blurb+'</p><div class="tags">'+p.skills.map(s=>'<span>'+s+'</span>').join('')+'</div></div>';
+  host.appendChild(d);
+});
+const evrows=document.getElementById('evrows');
+EV.forEach(function(row){
+  const tr=document.createElement('tr');
+  tr.innerHTML='<td>'+row[0]+'</td><td class="pill">'+row[1]+'</td><td class="path">'+row[2]+'</td>';
+  evrows.appendChild(tr);
+});
+document.querySelectorAll('.fbtn').forEach(function(b){b.addEventListener('click',function(){
+  document.querySelectorAll('.fbtn').forEach(function(x){x.classList.remove('on')});b.classList.add('on');
+  const f=b.dataset.f;
+  document.querySelectorAll('.proj').forEach(function(pr){pr.hidden=!(f==='all'||pr.dataset.mat===f)});
+})});
+const secObs=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('show');secObs.unobserve(e.target)}})},{threshold:.08});
+document.querySelectorAll('section,header,.kpis').forEach(function(s){secObs.observe(s)});
+const barObs=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.querySelectorAll('.barline').forEach(function(b){b.style.width=b.dataset.w+'%'});barObs.unobserve(e.target)}})},{threshold:.15});
+const pc=document.getElementById('projects');if(pc)barObs.observe(pc);
+const links=Array.prototype.slice.call(document.querySelectorAll('.nav-links a'));
+const secs=links.map(function(a){return document.querySelector(a.getAttribute('href'))});
+const spy=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-45% 0px -50% 0px'});
+secs.forEach(function(s){if(s)spy.observe(s)});
+const root=document.documentElement,tg=document.getElementById('tg'),saved=localStorage.getItem('bp-theme');
+if(saved)root.setAttribute('data-theme',saved);
+tg.addEventListener('click',function(){
+  const cur=root.getAttribute('data-theme');
+  const dark=cur?cur==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
+  const next=dark?'light':'dark';root.setAttribute('data-theme',next);localStorage.setItem('bp-theme',next);
+});
+</script>
+</body>
+</html>
